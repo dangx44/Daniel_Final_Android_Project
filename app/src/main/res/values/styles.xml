@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#26a69a</item>
+        <item name="colorPrimaryDark">#26a69a</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="newListBtn">
+        <item name="android:textColor">#fafafa</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#304ffe</item>
+    </style>
+    <style name="finalListBtn">
+        <item name="android:textColor">#fafafa</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#00e676</item>
+    </style>
+    <style name="send">
+        <item name="android:background">#05fb01</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="MeatList">#f44336</color>
+    <color name="DairyList">#00b0ff</color>
+    <color name="BreadList">#4caf50</color>
+    <color name="FruitList">#ff7043</color>
+    <color name="VeggieList">#ab47bc</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="meat_Background">#ec407a</color>
+    <color name="dairy_Background">#80deea</color>
+    <color name="bread_Background">#64dd17</color>
+    <color name="fruit_Background">#ff7043</color>
+    <color name="veggie_Background">#ba68c8</color>
+</resources>

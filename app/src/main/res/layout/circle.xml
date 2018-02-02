@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background">
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/new_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New List"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        style="@style/newListBtn"
+        />
+
+    <Button
+        android:id="@+id/final_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final List"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        style="@style/finalListBtn"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Shopping Cart to get Started"
+        android:textSize="24sp"
+        android:textColor="#6200ea"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
